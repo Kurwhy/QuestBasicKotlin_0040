@@ -21,3 +21,11 @@ fun main() {
     val data2 = DataClass(1, "makan@gmail.com")
     println(data == data2) //false
 
+// Fungsi Copy
+    val data3 = data.copy()
+    println(data3)
+
+// fungsi copy dengan perubahan
+    val data4 = data.copy(email = "sahar@gmail.com")
+    println(data4)
+}
